@@ -1,0 +1,15 @@
+C:\Users\Crown\Documents\Console\Intermidiate\bin\Debug\net6.0\Intermidiate.exe
+C:\Users\Crown\Documents\Console\Intermidiate\bin\Debug\net6.0\Intermidiate.deps.json
+C:\Users\Crown\Documents\Console\Intermidiate\bin\Debug\net6.0\Intermidiate.runtimeconfig.json
+C:\Users\Crown\Documents\Console\Intermidiate\bin\Debug\net6.0\Intermidiate.dll
+C:\Users\Crown\Documents\Console\Intermidiate\bin\Debug\net6.0\ref\Intermidiate.dll
+C:\Users\Crown\Documents\Console\Intermidiate\bin\Debug\net6.0\Intermidiate.pdb
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.csproj.AssemblyReference.cache
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.AssemblyInfoInputs.cache
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.AssemblyInfo.cs
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.csproj.CoreCompileInputs.cache
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.dll
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\ref\Intermidiate.dll
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.pdb
+C:\Users\Crown\Documents\Console\Intermidiate\obj\Debug\net6.0\Intermidiate.genruntimeconfig.cache

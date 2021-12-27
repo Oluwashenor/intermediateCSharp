@@ -1,0 +1,17 @@
+PascalCase
+camelCase
+
+
+Class members
+i   Instance
+    Accessible from an object 
+    Var person = new person();
+    person.Introduce();
+
+ii  Static 
+    Accessible from the classs
+    Console.writeline();
+
+    Why use static members ? 
+    to represent concepts that are singleton
+    
