@@ -14,4 +14,154 @@ ii  Static
 
     Why use static members ? 
     to represent concepts that are singleton
-    
+
+Constructor
+------------
+
+A Constructor is a method that is called when the instance of a class is created. 
+A constructor is used to initialize an object and put it in an early state
+
+
+object initializer
+------------------
+
+
+Methods 
+-------
+a.) signature of methods 
+Signature of a method consits of its name, and the number and type of its parameters
+overloading is having a method with same name but different signatures 
+
+
+Public class Calculator{
+    public int Add(int n1, int n2){}
+    public int Add(int n1, int n2, int n3){}
+    public int Add(int n1, int n2, int n3, int n4){}
+}
+
+//The above class has 3 over loads for the add methods, first one takes 2 parameters 
+
+//Params Modifier 
+-----------------
+Public class Calculator{
+    public int Add(params int[] numbers){}
+}
+
+var result = calculator.Add(new int[]{1,2,3,4,5})
+
+var result = calculator.Add(1,2,3,4,5)
+
+
+The Ref Modifier
+-----------------
+
+public class MyClass
+{
+    public void MyMethod(int a)
+    {
+        a += 2;
+    }
+      public void MyWierdMethod(ref int a)
+    {
+        a += 2;
+    }
+}
+var a = 1;
+myClass.MyMethod(a); // This gives a as 1
+var a = 1;
+myClass.MyWierdMethod(ref a); // This gives a as 3
+
+
+The OUT Modifier
+-----------------
+
+public class MyClass
+{
+    public void MyMethod(int a)
+    {
+        a += 2;
+    }
+      public void MyWierdMethod(out int a)
+    {
+        a += 2;
+    }
+}
+var a = 1;
+myClass.MyMethod(a); // This gives a as 1
+var a = 1;
+myClass.MyWierdMethod(out a); // This gives a as 3
+
+Method overloading 
+
+
+
+this - it references the current object 
+
+Constructor overloading 
+When you
+ have more than one Constructor with the same signature
+
+
+ Fields
+ _______
+
+ Fields are variables that are declared in class level;
+
+
+ public class Customer{
+     List<Order> Orders;
+
+ }
+
+ Read only fields are only assigned once
+
+ **Access Modifiers 
+ ----------------
+is a way to conroll access to a class or its members for safety and robustness in our application 
+
+ - public
+ - private
+ - protected
+ - internal
+ - protected internal  
+
+
+ **OOP
+- Encapsulationn/Information hiding 
+- Inheritance 
+- polymorphism 
+
+-Encapsulation 
+This is simply the process of hiding values from the outside a class. so its only available within a class;
+
+e.g 
+private string _name;
+
+inorder to access this we can use setters and getters
+
+public void SetName(string name){
+    _name = name;
+}
+
+public String GetName(){
+    return _name;
+}
+
+**Properties
+a property is a class memeber that encapsulates a getter and setter for accessing a field 
+instead of using getters and setters 
+
+we can use 
+public class Person
+{
+    private DateTime _birthdate;
+
+    public DateTime BirthDate{
+        get {return _birthdate;}
+        set{_birthdate = value;}
+    }
+}
+
+
+** INDEXER
+Indexers are ways to access elements in a clas that represent a list of values ;
