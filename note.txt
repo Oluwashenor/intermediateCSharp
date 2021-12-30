@@ -165,3 +165,25 @@ public class Person
 
 ** INDEXER
 Indexers are ways to access elements in a clas that represent a list of values ;
+
+
+**Class Coupler 
+Class coupling  is a measure of how interconnected classes and subsystems are.
+
+**INHERITANCE
+Is a kind of relationship btw 2 class that allows one to inherit code from the other.
+Benefit 
+- Code reuse
+- Polymorphic behaviour
+
+public class PresentationObject 
+{
+    //shared code
+}
+
+public class Text:PresentationObject
+{
+    //Code specific to text
+}
+
+**COMPOSITION
